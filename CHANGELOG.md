@@ -13,6 +13,7 @@
   (`Oxidation,15.994915,MP`).
 
 ### Chores
+- Update the `sdrf-templates` submodule to the latest `main` (was 65 commits behind).
 - Bump `idna` to 3.18 in `uv.lock` (supersedes Dependabot #304, which targeted 3.15).
 - CI: fix the Conda Build workflow — install `conda-build`/`conda-verify` into the `base` env and invoke
   via `conda run -n base`, so the `conda build` subcommand is registered (was failing with
